@@ -15,5 +15,6 @@
 8. Game Over
 9. Pause
 
-<h3>Future</h3>
-10. What To Do Next?
+<h3>Extra</h3>
+10. Removing The console Window
+11. What To Do Next?
