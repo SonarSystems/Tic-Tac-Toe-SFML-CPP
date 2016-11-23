@@ -10,9 +10,9 @@
 5: Game Loop<br />
 
 <h3>State/Screen Creation</h3>
-6: Splash Screen<br />
-7: Main Menu Screen<br />
-8: Game Over<br />
+6: Splash State/Screen<br />
+7: Main Menu State/Screen<br />
+8: Game Over State/Screen<br />
 
 <h3>Game Logic</h3>
 9: Grid<br />
