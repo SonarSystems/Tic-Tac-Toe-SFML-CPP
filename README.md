@@ -12,7 +12,8 @@
 <h3>State/Screen Creation</h3>
 6: Splash State/Screen<br />
 7: Main Menu State/Screen<br />
-8: Game Over State/Screen<br />
+8: Game State/Screen<br />
+9: Game Over State/Screen<br />
 
 <h3>Game Logic</h3>
 9: Grid<br />
