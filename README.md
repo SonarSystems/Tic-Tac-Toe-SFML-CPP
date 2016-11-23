@@ -1,1 +1,1 @@
-# Tic-Tac-Toe-SFML-C-
+# Tic-Tac-Toe SFML C++
