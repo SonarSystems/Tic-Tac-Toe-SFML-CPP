@@ -5,7 +5,7 @@
 2: Project Setup On Mac<br />
 
 <h3>Initial Setup</h3>
-3: Statemachine<br />
+3: State Machine<br />
 4: Splash Screen<br />
 5: Main Menu Screen<br />
 6: Grid<br />
