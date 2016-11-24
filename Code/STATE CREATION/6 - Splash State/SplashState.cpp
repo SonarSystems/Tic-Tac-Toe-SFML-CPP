@@ -14,25 +14,27 @@ namespace Sonar
 
 	void SplashState::Init()
 	{
+		this->_data->assets.LoadTexture("Splash State Background", "Resources/res/Splash Background.png");
 
+		_background.setTexture(this->_data->assets.GetTexture("Splash State Background"));
 	}
 
 	void SplashState::HandleInput()
 	{
 		sf::Event event;
 
-		while (_data->window.pollEvent(event))
+		while (this->_data->window.pollEvent(event))
 		{
 			if (sf::Event::Closed == event.type)
 			{
-				_data->window.close();
+				this->_data->window.close();
 			}
 		}
 	}
 
 	void SplashState::Update(float dt)
 	{
-		if (clock.getElapsedTime().asSeconds() > 3)
+		if (this->_clock.getElapsedTime().asSeconds() > 3)
 		{
 			// Switch To Main Menu
 			std::cout << "Go To Main Menu" << std::endl;
@@ -42,6 +44,8 @@ namespace Sonar
 	void SplashState::Draw(float dt)
 	{
 		this->_data->window.clear(sf::Color::Red);
+
+		this->_data->window.draw( this->_background );
 
 		this->_data->window.display();
 	}

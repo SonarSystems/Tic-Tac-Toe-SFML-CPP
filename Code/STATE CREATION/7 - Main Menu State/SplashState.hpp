@@ -13,9 +13,6 @@ namespace Sonar
 
 		void Init();
 
-		// No pause() or resume() methods here as this
-		// is a very simple example of a game state.
-
 		void HandleInput();
 		void Update(float dt);
 		void Draw(float dt);
@@ -23,9 +20,9 @@ namespace Sonar
 	private:
 		GameDataRef _data;
 
-		sf::Sprite _sprite;
-		sf::Text _text;
+		sf::Clock _clock;
 
-		sf::Clock clock;
+		sf::Texture _backgroundTexture;
+		sf::Sprite _background;
 	};
 }
