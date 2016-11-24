@@ -22,3 +22,6 @@
 <h3>Extras</h3>
 11: Removing The console Window<br />
 12: What To Do Next?<br />
+
+# References:
+State Machine Based On: <a href="https://github.com/kiswa/SFML_Starter">https://github.com/kiswa/SFML_Starter</a>
