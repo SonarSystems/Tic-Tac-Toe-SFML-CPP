@@ -13,15 +13,16 @@
 6: Splash State/Screen<br />
 7: Main Menu State/Screen<br />
 8: Game State/Screen<br />
-9: Game Over State/Screen<br />
+9: Pause State/Screen<br />
+10: Game Over State/Screen<br />
 
 <h3>Game Logic</h3>
-9: Grid<br />
-10: AI<br />
+11: Grid<br />
+12: AI<br />
 
 <h3>Extras</h3>
-11: Removing The console Window<br />
-12: What To Do Next?<br />
+13: Removing The console Window<br />
+14: What To Do Next?<br />
 
 # References:
 State Machine Based On: <a href="https://github.com/kiswa/SFML_Starter">https://github.com/kiswa/SFML_Starter</a>
