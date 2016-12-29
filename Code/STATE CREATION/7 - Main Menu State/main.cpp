@@ -3,5 +3,5 @@
 
 int main()
 {
-	Sonar::Game(768, 1136, "Tic-Tac-Toe");
+	Sonar::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Tic-Tac-Toe");
 }

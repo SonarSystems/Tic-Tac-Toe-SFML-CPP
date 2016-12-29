@@ -3,6 +3,7 @@
 #include <sstream>
 #include "MainMenuState.hpp"
 #include "DEFINITIONS.hpp"
+#include "GameState.hpp"
 
 #include <iostream>
 
@@ -29,7 +30,6 @@ namespace Sonar
 		this->_playButtonOuter.setPosition((SCREEN_WIDTH / 2) - (this->_playButtonOuter.getGlobalBounds().width / 2), (SCREEN_HEIGHT / 2) - (this->_playButtonOuter.getGlobalBounds().height / 2));
 		
 		this->_title.setPosition((SCREEN_WIDTH / 2) - (this->_title.getGlobalBounds().width / 2), this->_title.getGlobalBounds().height * 0.1);
-	
 	}
 
 	void MainMenuState::HandleInput()
@@ -45,7 +45,8 @@ namespace Sonar
 
 			if (this->_data->input.IsSpriteClicked(this->_playButton, sf::Mouse::Left, this->_data->window))
 			{
-				std::cout << "Go To Game Screen" << std::endl;
+				// Switch To Game State
+				this->_data->machine.AddState(StateRef(new GameState(_data)), true);
 			}
 		}
 	}

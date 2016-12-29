@@ -14,7 +14,7 @@ namespace Sonar
 
 	void SplashState::Init()
 	{
-		this->_data->assets.LoadTexture("Splash State Background", "Resources/res/Splash Background.png");
+		this->_data->assets.LoadTexture("Splash State Background", SPLASH_SCENE_BACKGROUND_FILEPATH);
 
 		_background.setTexture(this->_data->assets.GetTexture("Splash State Background"));
 	}
