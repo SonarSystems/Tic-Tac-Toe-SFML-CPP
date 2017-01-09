@@ -8,21 +8,22 @@
 3: State Machine<br />
 4: Asset Manager<br />
 5: Game Loop<br />
+6: Input Manager<br />
 
 <h3>State/Screen Creation</h3>
-6: Splash State/Screen<br />
-7: Main Menu State/Screen<br />
-8: Game State/Screen<br />
-9: Pause State/Screen<br />
-10: Game Over State/Screen<br />
+7: Splash State/Screen<br />
+8: Main Menu State/Screen<br />
+9: Game State/Screen<br />
+10: Pause State/Screen<br />
+11: Game Over State/Screen<br />
 
 <h3>Game Logic</h3>
-11: Grid<br />
-12: AI<br />
+12: Grid<br />
+13: AI<br />
 
 <h3>Extras</h3>
-13: Removing The console Window<br />
-14: What To Do Next?<br />
+14: Removing The console Window<br />
+15: What To Do Next?<br />
 
 # References:
 State Machine Based On: <a href="https://github.com/kiswa/SFML_Starter">https://github.com/kiswa/SFML_Starter</a>
