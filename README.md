@@ -18,8 +18,10 @@
 11: Game Over State/Screen<br />
 
 <h3>Game Logic</h3>
-12: Grid<br />
-13: AI<br />
+12: Grid Part 1 - Initialisation<br />
+13: Grid Part 2 - Placing A Piece<br />
+14: Grid Part 3 - Check For Win Condition<br />
+15: AI<br />
 
 <h3>Extras</h3>
 14: Removing The console Window<br />
