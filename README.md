@@ -24,8 +24,8 @@
 15: AI<br />
 
 <h3>Extras</h3>
-14: Removing The console Window<br />
-15: What To Do Next?<br />
+16: Removing The console Window<br />
+17: What To Do Next?<br />
 
 # References:
 State Machine Based On: <a href="https://github.com/kiswa/SFML_Starter">https://github.com/kiswa/SFML_Starter</a>
