@@ -22,10 +22,11 @@
 13: Grid Part 2 - Placing A Piece<br />
 14: Grid Part 3 - Check For Win Condition<br />
 15: AI<br />
+16: Show Game Over Screen <br />
 
 <h3>Extras</h3>
-16: Removing The console Window<br />
-17: What To Do Next?<br />
+17: Removing The console Window<br />
+18: What To Do Next?<br />
 
 # References:
 State Machine Based On: <a href="https://github.com/kiswa/SFML_Starter">https://github.com/kiswa/SFML_Starter</a>
