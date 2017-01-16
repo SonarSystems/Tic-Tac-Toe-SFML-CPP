@@ -25,8 +25,7 @@
 16: Show Game Over Screen <br />
 
 <h3>Extras</h3>
-17: Removing The console Window<br />
-18: What To Do Next?<br />
+17: What To Do Next?<br />
 
 # References:
 State Machine Based On: <a href="https://github.com/kiswa/SFML_Starter">https://github.com/kiswa/SFML_Starter</a>
