@@ -7,8 +7,8 @@
 <h3>Game Engine Setup</h3>
 3: State Machine<br />
 4: Asset Manager<br />
-5: Game Loop<br />
-6: Input Manager<br />
+5: Input Manager<br />
+6: Game Loop <br />
 
 <h3>State/Screen Creation</h3>
 7: Splash State/Screen<br />
