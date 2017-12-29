@@ -25,10 +25,10 @@ namespace Sonar
 			{
 				this->_states.top()->Resume();
 			}
-
-			this->_isRemoving = false;
 		}
-
+		
+		this->_isRemoving = false;
+		
 		if (this->_isAdding)
 		{
 			if (!this->_states.empty())
